@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 960px;
+    height: 960px;
+    border: 2px solid black;
+}
+
+.fila {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    flex-grow: 1;
+}
+
+.columna {
+    width: 100%;
+}
+
+.hover {
+    background-color: red;
+}
+
+#boton {
+    margin: 50px;
+    padding: 10px;
+}
